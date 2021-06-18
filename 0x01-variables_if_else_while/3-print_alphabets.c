@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - This is the entry point
  * Description: Prints out the alphabet in lowercase and in uppercase
- * Return: returns 0 if successful
+ * Return: The function returns 0
  */
 int main(void)
 {
@@ -13,10 +13,10 @@ for (ph = 'a'; ph <= 'z'; ph++)
 {
 putchar(ph);
 }
-for (ph1 = 'A'; ph2 <= 'Z'; ph++)
+for (ph1 = 'A'; ph1 <= 'Z'; ph1++)
 {
 putchar(ph1);
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
