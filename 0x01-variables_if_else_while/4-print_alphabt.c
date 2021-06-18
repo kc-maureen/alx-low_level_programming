@@ -12,7 +12,7 @@ int main(void)
 
 	for (ph = 'a'; ph <= 'z'; ph++)
 	{
-		if (ph == 'e' || h == 'q')
+		if (ph == 'e' || ph == 'q')
 			continue;
 		putchar(ph);
 	}
