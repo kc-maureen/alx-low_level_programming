@@ -1,19 +1,24 @@
 #include "holberton.h"
 /**
- *main - Entry point
- *Prints out Holberton
+ * main - Entry point
  *
- *Return: 0 if succesful complied
+ * _putchar: Calls function _putchar in hoberton.h
+ *
+ * Return: 0 if successful
  */
+
 int main(void)
 {
-	char a[] = "Holberton";
-	int b;
+_putchar('H');
+_putchar('o');
+_putchar('l');
+_putchar('b');
+_putchar('e');
+_putchar('r');
+_putchar('t');
+_putchar('o');
+_putchar('n');
+_putchar('\n');
 
-	for (b = 0; b < 9; b++)
-	{
-		_putchar(a[b]);
-	}
-	_putchar('\n');
-	return (0);
+return (0);
 }
