@@ -1,16 +1,19 @@
 #include "holberton.h"
+
 /**
- * _strlen - It takes one argument
- *@s: pointer on whose string lenght is to be found
- *Return: return len
+ * _strlen - Returns the length of a string
+ * @s: String to count
+ *
+ * Return: String length
  */
 int _strlen(char *s)
 {
-	int len;
+int c = 0;
 
-	while (*(s + len))
-	{
-		len++;
-	}
-	return (len);
+for (; *s != '\0'; s++)
+{
+c++;
+}
+
+return (c);
 }
