@@ -1,0 +1,1 @@
+this is  aproject on bit manipulation in c 
