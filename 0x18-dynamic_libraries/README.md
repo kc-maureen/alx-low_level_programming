@@ -1,0 +1,1 @@
+This is a project on dynamic libraries. to differentiate between static and dynamic libaries 
